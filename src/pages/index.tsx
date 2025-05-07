@@ -14,6 +14,7 @@
 export default function Home() {
   return (
     <div>
+      {/* <Navbar/> */}
       <div>Hello Ges2!</div>
     </div>
   );
