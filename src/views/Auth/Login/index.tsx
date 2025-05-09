@@ -9,7 +9,7 @@ const LoginViews = () => {
   };
   return (
     <div className={styles.login}>
-      <h1 className="big">Login Page</h1>
+      <h1 className="text-3xl font-bold">Login Page</h1>
       <button onClick={() => handleLogin()}>Login</button>
       {/* css in js */}
       <p style={{ color: "red", border: "1px solid red", borderRadius: "5px", padding: "10px" }}> 
