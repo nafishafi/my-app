@@ -23,12 +23,6 @@ a {
   text-decoration: none;
 }
 
-.navbar {
-  display: flex;
-  width: 100%;
-  height: 30px;
-  background-color: #0a0a0a;
-  color: #fff;
-  align-items: center;
-  padding: 0 5%;
+.big {
+  font-size: 1rem;
 }
