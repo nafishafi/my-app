@@ -19,6 +19,7 @@ const ProductPage = () => {
         }
     }, []);
 
+    // CLient side Rendering
     useEffect(() => {
         fetch("/api/product")
             .then((res) => res.json()).then((response) => {
